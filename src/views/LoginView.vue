@@ -45,10 +45,10 @@
   </div>
 </template>
 <script lang="ts">
-import router from "@/router";
 import { computed } from "@vue/reactivity";
 import { defineComponent, reactive } from "vue";
 import { useStore } from "..//store/index";
+import router from "../router";
 import { ActionTypes } from "../store/actions";
 import { LoginForm } from "../types/types";
 export default defineComponent({

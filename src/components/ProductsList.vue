@@ -1,6 +1,6 @@
 <template>
   <div class="products">
-    <p v-if="isLoading">Loading...</p>
+    <p v-if="isLoading"></p>
     <div v-for="product in products" :key="product.id">
       <b-card
         no-body

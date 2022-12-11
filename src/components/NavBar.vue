@@ -49,11 +49,11 @@
 </template>
 
 <script lang="ts">
-import router from "@/router";
-import { useStore } from "@/store";
-import { ActionTypes } from "@/store/actions";
 import { computed } from "@vue/reactivity";
 import { defineComponent } from "vue";
+import router from "../router";
+import { useStore } from "../store";
+import { ActionTypes } from "../store/actions";
 
 export default defineComponent({
   name: "NavBar",

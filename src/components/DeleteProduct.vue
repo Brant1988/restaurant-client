@@ -32,12 +32,11 @@
 </template>
 
 <script lang="ts">
-import { adminClient } from "@/http/axios.config";
-import { useStore } from "@/store";
-import { ActionTypes } from "@/store/actions";
-import { ProductDelete } from "@/types/types";
-import { computed } from "@vue/reactivity";
-import { defineComponent, reactive } from "vue";
+import { computed, defineComponent, reactive } from "vue";
+import { adminClient } from "../http/axios.config";
+import { useStore } from "../store";
+import { ActionTypes } from "../store/actions";
+import { ProductDelete } from "../types/types";
 
 export default defineComponent({
   name: "DeleteProduct",

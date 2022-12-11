@@ -32,12 +32,12 @@
 </template>
 
 <script lang="ts">
-import { adminClient } from "@/http/axios.config";
-import { useStore } from "@/store";
-import { ActionTypes } from "@/store/actions";
-import { CategoryForm } from "@/types/types";
 import { computed } from "@vue/reactivity";
 import { defineComponent, reactive } from "vue";
+import { adminClient } from "../http/axios.config";
+import { useStore } from "../store";
+import { ActionTypes } from "../store/actions";
+import { CategoryForm } from "../types/types";
 
 export default defineComponent({
   name: "DeleteCategory",

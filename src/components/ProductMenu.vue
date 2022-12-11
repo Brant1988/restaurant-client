@@ -1,6 +1,6 @@
 <template>
   <div class="menu">
-    <p v-if="isLoading">Loading...</p>
+    <p v-if="isLoading"></p>
     <ul v-for="category in categories" :key="category.id">
       <span
         :class="
@@ -16,9 +16,8 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onMounted } from "vue";
-
 import { computed } from "@vue/reactivity";
+import { defineComponent, onMounted } from "vue";
 import { ActionTypes } from "../store/actions";
 import { store, useStore } from "../store/index";
 

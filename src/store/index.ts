@@ -17,7 +17,7 @@ export const store = createStore<State>({
   getters,
   plugins: [
     createPersistedState({
-      paths: ["user"],
+      paths: ["user", "categories"],
     }),
   ],
 });
