@@ -10,7 +10,7 @@
           margin-left: 15px;
           margin-bottom: 15px;
         "
-        :img-src="apiUrl + product.img + '.jpg'"
+        :img-src="apiUrl + product.img"
         img-alt="Image"
         img-top
       >
