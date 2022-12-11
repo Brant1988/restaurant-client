@@ -59,7 +59,7 @@ export default defineComponent({
 }
 .card {
   img {
-    width: 300px;
+    width: 298px;
     height: 150px;
   }
 }
